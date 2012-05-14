@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:text="Enter customer phone number." android:layout_width="wrap_content"></TextView>
+    <EditText android:inputType="phone" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/adminText">
+    </EditText>
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:text="Select request operation" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content"></TextView>
+    <Spinner android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/spinner3"></Spinner>
+    <Button android:text="Request Transaction" android:id="@+id/admin_request" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+    <Button android:id="@+id/back1" android:text="Back" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+    <ImageView android:id="@+id/qrimage" android:layout_height="wrap_content" android:layout_width="fill_parent"></ImageView>
+</LinearLayout>

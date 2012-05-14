@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+  <string name="hello">Plakkies Loyalty Reward</string>
+  <string name="app_name">Group8</string>         
+  <string-array name="users_array">       
+  	<item>Customer</item>
+  	<item>Administrator</item>                  
+  </string-array>
+  <string-array name="customer_array"> 
+  	<item>Collect Loyalty Points</item>    
+  	<item>View Balance</item>                  
+  </string-array>
+  <string-array name="admin_array"> 
+  	<item>QR Code</item> 
+  	<item>Redeem Loyalty Points</item>                       
+  </string-array>
+  </resources>
+  
